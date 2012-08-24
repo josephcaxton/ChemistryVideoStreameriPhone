@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CCC114A15E7814700894EFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC114915E7814700894EFB /* UIKit.framework */; };
+		7CCC114C15E7814800894EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC114B15E7814800894EFB /* Foundation.framework */; };
+		7CCC114E15E7814800894EFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC114D15E7814800894EFB /* CoreGraphics.framework */; };
+		7CCC115415E7814800894EFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC115215E7814800894EFB /* InfoPlist.strings */; };
+		7CCC115615E7814800894EFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC115515E7814800894EFB /* main.m */; };
+		7CCC115A15E7814800894EFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC115915E7814800894EFB /* AppDelegate.m */; };
+		7CCC115D15E7814800894EFB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC115C15E7814800894EFB /* FirstViewController.m */; };
+		7CCC115F15E7814800894EFB /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC115E15E7814800894EFB /* first.png */; };
+		7CCC116115E7814800894EFB /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC116015E7814800894EFB /* first@2x.png */; };
+		7CCC116415E7814800894EFB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC116315E7814800894EFB /* SecondViewController.m */; };
+		7CCC116615E7814800894EFB /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC116515E7814800894EFB /* second.png */; };
+		7CCC116815E7814800894EFB /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC116715E7814800894EFB /* second@2x.png */; };
+		7CCC116B15E7814800894EFB /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC116915E7814800894EFB /* FirstViewController.xib */; };
+		7CCC116E15E7814800894EFB /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC116C15E7814800894EFB /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CCC114515E7814700894EFB /* ChemistryVideoStreameriPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemistryVideoStreameriPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCC114915E7814700894EFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7CCC114B15E7814800894EFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7CCC114D15E7814800894EFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7CCC115115E7814800894EFB /* ChemistryVideoStreameriPhone-Info.plist */ = {isa = PBXFileReference; path = "ChemistryVideoStreameriPhone-Info.plist"; sourceTree = "<group>"; };
+		7CCC115315E7814800894EFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CCC115515E7814800894EFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CCC115715E7814800894EFB /* ChemistryVideoStreameriPhone-Prefix.pch */ = {isa = PBXFileReference; path = "ChemistryVideoStreameriPhone-Prefix.pch"; sourceTree = "<group>"; };
+		7CCC115815E7814800894EFB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CCC115915E7814800894EFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CCC115B15E7814800894EFB /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		7CCC115C15E7814800894EFB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7CCC115E15E7814800894EFB /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		7CCC116015E7814800894EFB /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		7CCC116215E7814800894EFB /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		7CCC116315E7814800894EFB /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7CCC116515E7814800894EFB /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		7CCC116715E7814800894EFB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		7CCC116A15E7814800894EFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		7CCC116D15E7814800894EFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCC114215E7814700894EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCC114A15E7814700894EFB /* UIKit.framework in Frameworks */,
+				7CCC114C15E7814800894EFB /* Foundation.framework in Frameworks */,
+				7CCC114E15E7814800894EFB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CCC113A15E7814700894EFB = {
+			isa = PBXGroup;
+			children = (
+				7CCC114F15E7814800894EFB /* ChemistryVideoStreameriPhone */,
+				7CCC114815E7814700894EFB /* Frameworks */,
+				7CCC114615E7814700894EFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCC114615E7814700894EFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC114515E7814700894EFB /* ChemistryVideoStreameriPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCC114815E7814700894EFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC114915E7814700894EFB /* UIKit.framework */,
+				7CCC114B15E7814800894EFB /* Foundation.framework */,
+				7CCC114D15E7814800894EFB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CCC114F15E7814800894EFB /* ChemistryVideoStreameriPhone */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC115815E7814800894EFB /* AppDelegate.h */,
+				7CCC115915E7814800894EFB /* AppDelegate.m */,
+				7CCC115B15E7814800894EFB /* FirstViewController.h */,
+				7CCC115C15E7814800894EFB /* FirstViewController.m */,
+				7CCC115E15E7814800894EFB /* first.png */,
+				7CCC116015E7814800894EFB /* first@2x.png */,
+				7CCC116215E7814800894EFB /* SecondViewController.h */,
+				7CCC116315E7814800894EFB /* SecondViewController.m */,
+				7CCC116515E7814800894EFB /* second.png */,
+				7CCC116715E7814800894EFB /* second@2x.png */,
+				7CCC116915E7814800894EFB /* FirstViewController.xib */,
+				7CCC116C15E7814800894EFB /* SecondViewController.xib */,
+				7CCC115015E7814800894EFB /* Supporting Files */,
+			);
+			path = ChemistryVideoStreameriPhone;
+			sourceTree = "<group>";
+		};
+		7CCC115015E7814800894EFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC115115E7814800894EFB /* ChemistryVideoStreameriPhone-Info.plist */,
+				7CCC115215E7814800894EFB /* InfoPlist.strings */,
+				7CCC115515E7814800894EFB /* main.m */,
+				7CCC115715E7814800894EFB /* ChemistryVideoStreameriPhone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCC114415E7814700894EFB /* ChemistryVideoStreameriPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCC117115E7814800894EFB /* Build configuration list for PBXNativeTarget "ChemistryVideoStreameriPhone" */;
+			buildPhases = (
+				7CCC114115E7814700894EFB /* Sources */,
+				7CCC114215E7814700894EFB /* Frameworks */,
+				7CCC114315E7814700894EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChemistryVideoStreameriPhone;
+			productName = ChemistryVideoStreameriPhone;
+			productReference = 7CCC114515E7814700894EFB /* ChemistryVideoStreameriPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCC113C15E7814700894EFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = caxtonidowu;
+			};
+			buildConfigurationList = 7CCC113F15E7814700894EFB /* Build configuration list for PBXProject "ChemistryVideoStreameriPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CCC113A15E7814700894EFB;
+			productRefGroup = 7CCC114615E7814700894EFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCC114415E7814700894EFB /* ChemistryVideoStreameriPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCC114315E7814700894EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCC115415E7814800894EFB /* InfoPlist.strings in Resources */,
+				7CCC115F15E7814800894EFB /* first.png in Resources */,
+				7CCC116115E7814800894EFB /* first@2x.png in Resources */,
+				7CCC116615E7814800894EFB /* second.png in Resources */,
+				7CCC116815E7814800894EFB /* second@2x.png in Resources */,
+				7CCC116B15E7814800894EFB /* FirstViewController.xib in Resources */,
+				7CCC116E15E7814800894EFB /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCC114115E7814700894EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCC115615E7814800894EFB /* main.m in Sources */,
+				7CCC115A15E7814800894EFB /* AppDelegate.m in Sources */,
+				7CCC115D15E7814800894EFB /* FirstViewController.m in Sources */,
+				7CCC116415E7814800894EFB /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CCC115215E7814800894EFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCC115315E7814800894EFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CCC116915E7814800894EFB /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCC116A15E7814800894EFB /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		7CCC116C15E7814800894EFB /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCC116D15E7814800894EFB /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CCC116F15E7814800894EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CCC117015E7814800894EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCC117215E7814800894EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChemistryVideoStreameriPhone/ChemistryVideoStreameriPhone-Prefix.pch";
+				INFOPLIST_FILE = "ChemistryVideoStreameriPhone/ChemistryVideoStreameriPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7CCC117315E7814800894EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChemistryVideoStreameriPhone/ChemistryVideoStreameriPhone-Prefix.pch";
+				INFOPLIST_FILE = "ChemistryVideoStreameriPhone/ChemistryVideoStreameriPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCC113F15E7814700894EFB /* Build configuration list for PBXProject "ChemistryVideoStreameriPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCC116F15E7814800894EFB /* Debug */,
+				7CCC117015E7814800894EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCC117115E7814800894EFB /* Build configuration list for PBXNativeTarget "ChemistryVideoStreameriPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCC117215E7814800894EFB /* Debug */,
+				7CCC117315E7814800894EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CCC113C15E7814700894EFB /* Project object */;
+}
