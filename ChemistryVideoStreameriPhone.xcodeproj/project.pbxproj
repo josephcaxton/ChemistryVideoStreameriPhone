@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CB9E3EC15EE6C11003D4CE1 /* ChemistryBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB9E3EB15EE6C11003D4CE1 /* ChemistryBackground.png */; };
 		7CCC114A15E7814700894EFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC114915E7814700894EFB /* UIKit.framework */; };
 		7CCC114C15E7814800894EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC114B15E7814800894EFB /* Foundation.framework */; };
 		7CCC114E15E7814800894EFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC114D15E7814800894EFB /* CoreGraphics.framework */; };
@@ -133,7 +134,6 @@
 		7CCC132F15E7870800894EFB /* LearnersCloudTermsonapps.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC12E715E7870800894EFB /* LearnersCloudTermsonapps.pdf */; };
 		7CCC133015E7870800894EFB /* HowtouseVideoStreamer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC12E815E7870800894EFB /* HowtouseVideoStreamer.pdf */; };
 		7CCC133115E7877800894EFB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC127915E783EA00894EFB /* MainWindow.xib */; };
-		7CCC133B15E78FAF00894EFB /* ChemistryBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC133A15E78FAF00894EFB /* ChemistryBackground.png */; };
 		7CCC133D15E790DD00894EFB /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC118C15E781DF00894EFB /* libGoogleAnalytics.a */; };
 		7CCC135715E7A91F00894EFB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC135215E7A91F00894EFB /* Icon-72.png */; };
 		7CCC135815E7A91F00894EFB /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC135315E7A91F00894EFB /* Icon-Small-50.png */; };
@@ -143,6 +143,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7CB9E3EB15EE6C11003D4CE1 /* ChemistryBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChemistryBackground.png; sourceTree = "<group>"; };
 		7CCC114515E7814700894EFB /* Chemistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chemistry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCC114915E7814700894EFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7CCC114B15E7814800894EFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -305,7 +306,6 @@
 		7CCC12E615E7870800894EFB /* 70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 70.png; sourceTree = "<group>"; };
 		7CCC12E715E7870800894EFB /* LearnersCloudTermsonapps.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LearnersCloudTermsonapps.pdf; sourceTree = "<group>"; };
 		7CCC12E815E7870800894EFB /* HowtouseVideoStreamer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HowtouseVideoStreamer.pdf; sourceTree = "<group>"; };
-		7CCC133A15E78FAF00894EFB /* ChemistryBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChemistryBackground.png; sourceTree = "<group>"; };
 		7CCC135215E7A91F00894EFB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		7CCC135315E7A91F00894EFB /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		7CCC135415E7A91F00894EFB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -565,6 +565,7 @@
 				7CCC124015E7834B00894EFB /* twitter.png */,
 				7CCC124115E7834B00894EFB /* FollowUsOnTwitter.png */,
 				7CCC124715E7834B00894EFB /* shareIcon.png */,
+				7CB9E3EB15EE6C11003D4CE1 /* ChemistryBackground.png */,
 				7CCC135215E7A91F00894EFB /* Icon-72.png */,
 				7CCC135315E7A91F00894EFB /* Icon-Small-50.png */,
 				7CCC135415E7A91F00894EFB /* Icon.png */,
@@ -573,7 +574,6 @@
 				7CCC124815E7834B00894EFB /* LikeUsOnFaceBook.png */,
 				7CCC124915E7834B00894EFB /* Default.png */,
 				7CCC124A15E7834B00894EFB /* Default@2x.png */,
-				7CCC133A15E78FAF00894EFB /* ChemistryBackground.png */,
 				7CCC124B15E7834B00894EFB /* EnglishBackground.png */,
 				7CCC124C15E7834B00894EFB /* BlackBackGround_Iphone.png */,
 				7CCC124D15E7834B00894EFB /* mail.png */,
@@ -745,12 +745,12 @@
 				7CCC132E15E7870800894EFB /* 70.png in Resources */,
 				7CCC132F15E7870800894EFB /* LearnersCloudTermsonapps.pdf in Resources */,
 				7CCC133015E7870800894EFB /* HowtouseVideoStreamer.pdf in Resources */,
-				7CCC133B15E78FAF00894EFB /* ChemistryBackground.png in Resources */,
 				7CCC135715E7A91F00894EFB /* Icon-72.png in Resources */,
 				7CCC135815E7A91F00894EFB /* Icon-Small-50.png in Resources */,
 				7CCC135915E7A91F00894EFB /* Icon.png in Resources */,
 				7CCC135A15E7A91F00894EFB /* Icon@2x.png in Resources */,
 				7CCC135B15E7A91F00894EFB /* iTunesArtwork.png in Resources */,
+				7CB9E3EC15EE6C11003D4CE1 /* ChemistryBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

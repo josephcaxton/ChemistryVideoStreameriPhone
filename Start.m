@@ -43,7 +43,7 @@
     Image = [UIImage imageNamed:@"ChemistryBackground.png"];
     ImageView = [[UIImageView alloc] initWithImage:Image];
    // ImageView.frame = CGRectMake(0 ,0, 540, 950);
-    ImageView.frame = CGRectMake(20 ,80, 280, 200);
+    ImageView.frame = CGRectMake(20 ,80, 280, 160);
 
     
    // UIColor *patternColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Cinema_port.png"]];
@@ -607,7 +607,7 @@
         
         FreeVideos.frame = CGRectMake(20 ,30, 280, 34);
         BtnTransfermysubscription.frame = CGRectMake(170,310, 130, 34);
-        ImageView.frame = CGRectMake(20 ,80, 280, 200);
+        ImageView.frame = CGRectMake(20 ,80, 280, 160);
         FirstView.frame = CGRectMake(0, 0,SCREEN_WIDTH, SCREEN_HEIGHT);
         LoginViaLearnersCloud.frame = CGRectMake(20 ,310, 130, 34);
         

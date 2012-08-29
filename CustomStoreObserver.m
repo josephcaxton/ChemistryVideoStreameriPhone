@@ -178,7 +178,7 @@
         
     }
     
-    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryiphone3months"] ){
+    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryiphonemonths"] ){ // Type at apple I did not add 3 to the string
         
         return @"93";
         
