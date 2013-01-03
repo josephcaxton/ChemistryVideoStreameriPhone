@@ -875,7 +875,7 @@
 		7CCC117215E7814800894EFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph caxton (99S98QLWW3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChemistryVideoStreameriPhone/ChemistryVideoStreameriPhone-Prefix.pch";
 				INFOPLIST_FILE = "ChemistryVideoStreameriPhone/ChemistryVideoStreameriPhone-Info.plist";
@@ -885,7 +885,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = GCSE;
-				PROVISIONING_PROFILE = "F895E654-8E0F-47C8-A5BA-48CB37E941DE";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
