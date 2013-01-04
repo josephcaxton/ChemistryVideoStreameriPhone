@@ -147,6 +147,15 @@
 		7CCC133115E7877800894EFB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC127915E783EA00894EFB /* MainWindow.xib */; };
 		7CCC133D15E790DD00894EFB /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC118C15E781DF00894EFB /* libGoogleAnalytics.a */; };
 		7CCC135B15E7A91F00894EFB /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC135615E7A91F00894EFB /* iTunesArtwork.png */; };
+		7CD6D9D116974854004BCB15 /* GCSE-Chemistry-WJEC-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9CB16974854004BCB15 /* GCSE-Chemistry-WJEC-Examination-Coverage.pdf */; };
+		7CD6D9D216974854004BCB15 /* GCSE-Chemistry-OCR-Gateway-B-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9CC16974854004BCB15 /* GCSE-Chemistry-OCR-Gateway-B-Examination-Coverage.pdf */; };
+		7CD6D9D316974854004BCB15 /* GCSE-Chemistry-OCR-21st-Century-A-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9CD16974854004BCB15 /* GCSE-Chemistry-OCR-21st-Century-A-Examination-Coverage.pdf */; };
+		7CD6D9D416974854004BCB15 /* GCSE-Chemistry-Edexcel-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9CE16974854004BCB15 /* GCSE-Chemistry-Edexcel-Examination-Coverage.pdf */; };
+		7CD6D9D516974854004BCB15 /* GCSE-Chemistry-CCEA-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9CF16974854004BCB15 /* GCSE-Chemistry-CCEA-Examination-Coverage.pdf */; };
+		7CD6D9D616974854004BCB15 /* GCSE-Chemistry-AQA-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9D016974854004BCB15 /* GCSE-Chemistry-AQA-Examination-Coverage.pdf */; };
+		7CD6D9DC169748CA004BCB15 /* nav_btn_coverage_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9DB169748CA004BCB15 /* nav_btn_coverage_deselected.png */; };
+		7CD6D9DD169748EA004BCB15 /* Coverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D9D81697486C004BCB15 /* Coverage.m */; };
+		7CD6D9DE169748EA004BCB15 /* CoverageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D9DA1697486C004BCB15 /* CoverageViewer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -326,6 +335,17 @@
 		7CCC12E515E7870800894EFB /* 69.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 69.png; sourceTree = "<group>"; };
 		7CCC12E615E7870800894EFB /* 70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 70.png; sourceTree = "<group>"; };
 		7CCC135615E7A91F00894EFB /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		7CD6D9CB16974854004BCB15 /* GCSE-Chemistry-WJEC-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Chemistry-WJEC-Examination-Coverage.pdf"; sourceTree = "<group>"; };
+		7CD6D9CC16974854004BCB15 /* GCSE-Chemistry-OCR-Gateway-B-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Chemistry-OCR-Gateway-B-Examination-Coverage.pdf"; sourceTree = "<group>"; };
+		7CD6D9CD16974854004BCB15 /* GCSE-Chemistry-OCR-21st-Century-A-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Chemistry-OCR-21st-Century-A-Examination-Coverage.pdf"; sourceTree = "<group>"; };
+		7CD6D9CE16974854004BCB15 /* GCSE-Chemistry-Edexcel-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Chemistry-Edexcel-Examination-Coverage.pdf"; sourceTree = "<group>"; };
+		7CD6D9CF16974854004BCB15 /* GCSE-Chemistry-CCEA-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Chemistry-CCEA-Examination-Coverage.pdf"; sourceTree = "<group>"; };
+		7CD6D9D016974854004BCB15 /* GCSE-Chemistry-AQA-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Chemistry-AQA-Examination-Coverage.pdf"; sourceTree = "<group>"; };
+		7CD6D9D71697486C004BCB15 /* Coverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coverage.h; sourceTree = "<group>"; };
+		7CD6D9D81697486C004BCB15 /* Coverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coverage.m; sourceTree = "<group>"; };
+		7CD6D9D91697486C004BCB15 /* CoverageViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoverageViewer.h; sourceTree = "<group>"; };
+		7CD6D9DA1697486C004BCB15 /* CoverageViewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverageViewer.m; sourceTree = "<group>"; };
+		7CD6D9DB169748CA004BCB15 /* nav_btn_coverage_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_btn_coverage_deselected.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,6 +374,7 @@
 		7CCC113A15E7814700894EFB = {
 			isa = PBXGroup;
 			children = (
+				7CD6D9C916974842004BCB15 /* Files */,
 				7CCC117815E781A400894EFB /* facebook-ios-sdk */,
 				7CCC118A15E781BA00894EFB /* Analytics */,
 				7CCC118D15E781F500894EFB /* Video images */,
@@ -549,6 +570,10 @@
 				7CCC122B15E782CB00894EFB /* TermsAndConditions.m */,
 				7CCC122C15E782CB00894EFB /* HowtoUse.h */,
 				7CCC122D15E782CB00894EFB /* HowtoUse.m */,
+				7CD6D9D71697486C004BCB15 /* Coverage.h */,
+				7CD6D9D81697486C004BCB15 /* Coverage.m */,
+				7CD6D9D91697486C004BCB15 /* CoverageViewer.h */,
+				7CD6D9DA1697486C004BCB15 /* CoverageViewer.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -613,12 +638,26 @@
 		7CCC125E15E7835D00894EFB /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				7CD6D9DB169748CA004BCB15 /* nav_btn_coverage_deselected.png */,
 				7CAE9F2C1627019800474CD2 /* buy_now.png */,
 				7CAE9F2D1627019800474CD2 /* btn_videos_deselected.png */,
 				7CAE9F2E1627019800474CD2 /* btn_share_deselected.png */,
 				7CCC126415E7837000894EFB /* 60-signpost.png */,
 			);
 			name = Icons;
+			sourceTree = "<group>";
+		};
+		7CD6D9C916974842004BCB15 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CD6D9CB16974854004BCB15 /* GCSE-Chemistry-WJEC-Examination-Coverage.pdf */,
+				7CD6D9CC16974854004BCB15 /* GCSE-Chemistry-OCR-Gateway-B-Examination-Coverage.pdf */,
+				7CD6D9CD16974854004BCB15 /* GCSE-Chemistry-OCR-21st-Century-A-Examination-Coverage.pdf */,
+				7CD6D9CE16974854004BCB15 /* GCSE-Chemistry-Edexcel-Examination-Coverage.pdf */,
+				7CD6D9CF16974854004BCB15 /* GCSE-Chemistry-CCEA-Examination-Coverage.pdf */,
+				7CD6D9D016974854004BCB15 /* GCSE-Chemistry-AQA-Examination-Coverage.pdf */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -780,6 +819,13 @@
 				7C8F81C6165E791D004511A6 /* Icon-Small-50.png in Resources */,
 				7C8F81C9165E7938004511A6 /* Icon.png in Resources */,
 				7C8F81CA165E7938004511A6 /* Icon@2x.png in Resources */,
+				7CD6D9D116974854004BCB15 /* GCSE-Chemistry-WJEC-Examination-Coverage.pdf in Resources */,
+				7CD6D9D216974854004BCB15 /* GCSE-Chemistry-OCR-Gateway-B-Examination-Coverage.pdf in Resources */,
+				7CD6D9D316974854004BCB15 /* GCSE-Chemistry-OCR-21st-Century-A-Examination-Coverage.pdf in Resources */,
+				7CD6D9D416974854004BCB15 /* GCSE-Chemistry-Edexcel-Examination-Coverage.pdf in Resources */,
+				7CD6D9D516974854004BCB15 /* GCSE-Chemistry-CCEA-Examination-Coverage.pdf in Resources */,
+				7CD6D9D616974854004BCB15 /* GCSE-Chemistry-AQA-Examination-Coverage.pdf in Resources */,
+				7CD6D9DC169748CA004BCB15 /* nav_btn_coverage_deselected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,6 +836,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD6D9DD169748EA004BCB15 /* Coverage.m in Sources */,
+				7CD6D9DE169748EA004BCB15 /* CoverageViewer.m in Sources */,
 				7CAE9F581627025800474CD2 /* UnderlinedButton.m in Sources */,
 				7CCC128A15E7863700894EFB /* ConfigObject.m in Sources */,
 				7CCC128B15E7863700894EFB /* LearnersCloudSamplesVideos.m in Sources */,
