@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C6BE4C316E7944B00122F68 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BE4C216E792FC00122F68 /* ListCell.m */; };
 		7C8F81C4165E7910004511A6 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F81C3165E7910004511A6 /* Icon-72.png */; };
 		7C8F81C6165E791D004511A6 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F81C5165E791D004511A6 /* Icon-Small-50.png */; };
 		7C8F81C9165E7938004511A6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F81C7165E7938004511A6 /* Icon.png */; };
@@ -159,6 +160,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C6BE4C116E792FC00122F68 /* ListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		7C6BE4C216E792FC00122F68 /* ListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
 		7C8F81C3165E7910004511A6 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		7C8F81C5165E791D004511A6 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		7C8F81C7165E7938004511A6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -371,9 +374,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C6BE4C016E792C600122F68 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7C6BE4C116E792FC00122F68 /* ListCell.h */,
+				7C6BE4C216E792FC00122F68 /* ListCell.m */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
 		7CCC113A15E7814700894EFB = {
 			isa = PBXGroup;
 			children = (
+				7C6BE4C016E792C600122F68 /* Table Cells */,
 				7CD6D9C916974842004BCB15 /* Files */,
 				7CCC117815E781A400894EFB /* facebook-ios-sdk */,
 				7CCC118A15E781BA00894EFB /* Analytics */,
@@ -836,6 +849,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C6BE4C316E7944B00122F68 /* ListCell.m in Sources */,
 				7CD6D9DD169748EA004BCB15 /* Coverage.m in Sources */,
 				7CD6D9DE169748EA004BCB15 /* CoverageViewer.m in Sources */,
 				7CAE9F581627025800474CD2 /* UnderlinedButton.m in Sources */,
@@ -942,7 +956,8 @@
 		7CCC117315E7814800894EFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChemistryVideoStreameriPhone/ChemistryVideoStreameriPhone-Prefix.pch";
 				INFOPLIST_FILE = "ChemistryVideoStreameriPhone/ChemistryVideoStreameriPhone-Info.plist";
@@ -952,7 +967,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = GCSE;
-				PROVISIONING_PROFILE = "49DE8962-E59D-41A6-9341-6961A6C087A6";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
