@@ -567,6 +567,7 @@
              UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Not successful" message:@"You don't have any running subscription" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
              alertView.tag = 4444;
              [alertView show];
+               [self viewWillAppear:TRUE];
          
          }
          else {
@@ -584,6 +585,7 @@
              UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Not successful" message:@"Login failed" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
              alertView.tag = 4444;
              [alertView show];
+               [self viewWillAppear:TRUE];
          }
     
     }
