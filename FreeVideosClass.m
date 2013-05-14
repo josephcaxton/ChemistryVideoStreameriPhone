@@ -396,7 +396,7 @@
     UIImage* theImage =[ImageObjects objectAtIndex:arc4random() % 69];
     cell.imageView.image = theImage;
     
-    cell.textLabel.text = [obj VideoTitle];
+    cell.textLabel.text = [obj VideoDescription];
     cell.textLabel.font = [UIFont fontWithName:@"Helvetica" size:12];
     cell.textLabel.lineBreakMode = UILineBreakModeWordWrap;
     cell.textLabel.numberOfLines = 0;
@@ -404,7 +404,7 @@
     if ([obj Free] == YES){
         
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-        NSString* descriptiontxt = [obj VideoDescription];
+        NSString* descriptiontxt = [obj VideoTitle];
         NSString* FullDesciption = [descriptiontxt stringByAppendingString:@""];
         cell.detailTextLabel.text =FullDesciption;
         cell.detailTextLabel.textColor = [UIColor blueColor];
@@ -416,7 +416,7 @@
     else if ([obj SociallyFree] == YES){
         
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-        NSString* descriptiontxt = [obj VideoDescription];
+        NSString* descriptiontxt = [obj VideoTitle];
         NSString* FullDesciption = @"";
         // Check if we are in full subscription if so Change text to paid
         if(FullSubscription == TRUE){
@@ -439,7 +439,7 @@
     else if([obj Subcribed] == YES || FullSubscription == TRUE){
         
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-        NSString* descriptiontxt = [obj VideoDescription];
+        NSString* descriptiontxt = [obj VideoTitle];
         NSString* FullDesciption = [descriptiontxt stringByAppendingString:@""];
         cell.detailTextLabel.text =FullDesciption;
         cell.detailTextLabel.textColor = [UIColor blueColor];
@@ -452,7 +452,7 @@
     {
         
         cell.accessoryType =  UITableViewCellAccessoryNone;
-        NSString* descriptiontxt = [obj VideoDescription];
+        NSString* descriptiontxt = [obj VideoTitle];
         NSString* FullDesciption = [descriptiontxt stringByAppendingString:@""];
         cell.detailTextLabel.text = FullDesciption;
         cell.detailTextLabel.textColor = [UIColor redColor];
