@@ -556,6 +556,8 @@
 -(void)ConfigureProductList:(NSString *)ProductID{
     
     ProductIDs = [[NSMutableArray alloc] init];
+    NSString* OneWeek = [ProductID stringByAppendingString:@"iPhone1week"];
+    [ProductIDs addObject:OneWeek];
     
     NSString* OneMonth = [ProductID stringByAppendingString:@"iPhone1month"];
     [ProductIDs addObject:OneMonth];
