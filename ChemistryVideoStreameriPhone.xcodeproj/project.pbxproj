@@ -10,14 +10,12 @@
 		7C18049016FB3EAD00DBCF78 /* website_promo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C18048E16FB3EAD00DBCF78 /* website_promo.png */; };
 		7C18049116FB3EAD00DBCF78 /* website_promo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C18048F16FB3EAD00DBCF78 /* website_promo@2x.png */; };
 		7C18049316FB3F9C00DBCF78 /* HowtouseVideoStreamer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C18049216FB3F9C00DBCF78 /* HowtouseVideoStreamer.pdf */; };
+		7C239E5517AD1F5400794B2C /* TransparentToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C239E5417AD1F4000794B2C /* TransparentToolBar.m */; };
 		7C6BE4C316E7944B00122F68 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BE4C216E792FC00122F68 /* ListCell.m */; };
 		7C8F81C4165E7910004511A6 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F81C3165E7910004511A6 /* Icon-72.png */; };
 		7C8F81C6165E791D004511A6 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F81C5165E791D004511A6 /* Icon-Small-50.png */; };
 		7C8F81C9165E7938004511A6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F81C7165E7938004511A6 /* Icon.png */; };
 		7C8F81CA165E7938004511A6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F81C8165E7938004511A6 /* Icon@2x.png */; };
-		7CAE9F2F1627019800474CD2 /* buy_now.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9F2C1627019800474CD2 /* buy_now.png */; };
-		7CAE9F301627019800474CD2 /* btn_videos_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9F2D1627019800474CD2 /* btn_videos_deselected.png */; };
-		7CAE9F311627019800474CD2 /* btn_share_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9F2E1627019800474CD2 /* btn_share_deselected.png */; };
 		7CAE9F39162701B500474CD2 /* free_and_paid_apps.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9F32162701B200474CD2 /* free_and_paid_apps.png */; };
 		7CAE9F3A162701B500474CD2 /* free_and_paid_apps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9F33162701B200474CD2 /* free_and_paid_apps@2x.png */; };
 		7CAE9F3B162701B500474CD2 /* back320x450.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9F34162701B300474CD2 /* back320x450.png */; };
@@ -146,16 +144,24 @@
 		7CCC132E15E7870800894EFB /* 70.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC12E615E7870800894EFB /* 70.png */; };
 		7CCC133D15E790DD00894EFB /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCC118C15E781DF00894EFB /* libGoogleAnalytics.a */; };
 		7CCC135B15E7A91F00894EFB /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC135615E7A91F00894EFB /* iTunesArtwork.png */; };
+		7CCE6EC217A1649800526092 /* btn_share_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EBA17A1649800526092 /* btn_share_deselected.png */; };
+		7CCE6EC317A1649800526092 /* btn_share_deselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EBB17A1649800526092 /* btn_share_deselected@2x.png */; };
+		7CCE6EC417A1649800526092 /* buy_now.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EBC17A1649800526092 /* buy_now.png */; };
+		7CCE6EC517A1649800526092 /* buy_now@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EBD17A1649800526092 /* buy_now@2x.png */; };
+		7CCE6EC617A1649800526092 /* btn_videos_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EBE17A1649800526092 /* btn_videos_deselected.png */; };
+		7CCE6EC717A1649800526092 /* btn_videos_deselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EBF17A1649800526092 /* btn_videos_deselected@2x.png */; };
+		7CCE6EC817A1649800526092 /* nav_btn_coverage_deselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EC017A1649800526092 /* nav_btn_coverage_deselected@2x.png */; };
+		7CCE6EC917A1649800526092 /* nav_btn_coverage_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EC117A1649800526092 /* nav_btn_coverage_deselected.png */; };
+		7CCE6ED017A164DA00526092 /* subscribe.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6ECE17A164DA00526092 /* subscribe.png */; };
+		7CCE6ED117A164DA00526092 /* subscribe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6ECF17A164DA00526092 /* subscribe@2x.png */; };
 		7CD6D9D116974854004BCB15 /* GCSE-Chemistry-WJEC-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9CB16974854004BCB15 /* GCSE-Chemistry-WJEC-Examination-Coverage.pdf */; };
 		7CD6D9D216974854004BCB15 /* GCSE-Chemistry-OCR-Gateway-B-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9CC16974854004BCB15 /* GCSE-Chemistry-OCR-Gateway-B-Examination-Coverage.pdf */; };
 		7CD6D9D316974854004BCB15 /* GCSE-Chemistry-OCR-21st-Century-A-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9CD16974854004BCB15 /* GCSE-Chemistry-OCR-21st-Century-A-Examination-Coverage.pdf */; };
 		7CD6D9D416974854004BCB15 /* GCSE-Chemistry-Edexcel-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9CE16974854004BCB15 /* GCSE-Chemistry-Edexcel-Examination-Coverage.pdf */; };
 		7CD6D9D516974854004BCB15 /* GCSE-Chemistry-CCEA-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9CF16974854004BCB15 /* GCSE-Chemistry-CCEA-Examination-Coverage.pdf */; };
 		7CD6D9D616974854004BCB15 /* GCSE-Chemistry-AQA-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9D016974854004BCB15 /* GCSE-Chemistry-AQA-Examination-Coverage.pdf */; };
-		7CD6D9DC169748CA004BCB15 /* nav_btn_coverage_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D9DB169748CA004BCB15 /* nav_btn_coverage_deselected.png */; };
 		7CD6D9DD169748EA004BCB15 /* Coverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D9D81697486C004BCB15 /* Coverage.m */; };
 		7CD6D9DE169748EA004BCB15 /* CoverageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D9DA1697486C004BCB15 /* CoverageViewer.m */; };
-		7CF81A4D1735ACE200ADB961 /* subscribe.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF81A4C1735ACE200ADB961 /* subscribe.png */; };
 		7CF81A4F1735ACF000ADB961 /* 70-tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF81A4E1735ACF000ADB961 /* 70-tv.png */; };
 		7CF81A531735ADAF00ADB961 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF81A521735ADAF00ADB961 /* MainWindow.xib */; };
 		7CF81A5A1735ADBF00ADB961 /* Maths.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF81A541735ADBF00ADB961 /* Maths.png */; };
@@ -173,6 +179,8 @@
 		7C18048E16FB3EAD00DBCF78 /* website_promo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = website_promo.png; sourceTree = "<group>"; };
 		7C18048F16FB3EAD00DBCF78 /* website_promo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "website_promo@2x.png"; sourceTree = "<group>"; };
 		7C18049216FB3F9C00DBCF78 /* HowtouseVideoStreamer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HowtouseVideoStreamer.pdf; sourceTree = "<group>"; };
+		7C239E5317AD1F4000794B2C /* TransparentToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransparentToolBar.h; sourceTree = "<group>"; };
+		7C239E5417AD1F4000794B2C /* TransparentToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransparentToolBar.m; sourceTree = "<group>"; };
 		7C6BE4C116E792FC00122F68 /* ListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
 		7C6BE4C216E792FC00122F68 /* ListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
 		7C8F81C3165E7910004511A6 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
@@ -181,9 +189,6 @@
 		7C8F81C8165E7938004511A6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		7CAE9F2A1627012C00474CD2 /* UnderlinedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnderlinedButton.h; sourceTree = "<group>"; };
 		7CAE9F2B1627012C00474CD2 /* UnderlinedButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnderlinedButton.m; sourceTree = "<group>"; };
-		7CAE9F2C1627019800474CD2 /* buy_now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy_now.png; sourceTree = "<group>"; };
-		7CAE9F2D1627019800474CD2 /* btn_videos_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_videos_deselected.png; sourceTree = "<group>"; };
-		7CAE9F2E1627019800474CD2 /* btn_share_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_share_deselected.png; sourceTree = "<group>"; };
 		7CAE9F32162701B200474CD2 /* free_and_paid_apps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = free_and_paid_apps.png; sourceTree = "<group>"; };
 		7CAE9F33162701B200474CD2 /* free_and_paid_apps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "free_and_paid_apps@2x.png"; sourceTree = "<group>"; };
 		7CAE9F34162701B300474CD2 /* back320x450.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back320x450.png; sourceTree = "<group>"; };
@@ -345,6 +350,16 @@
 		7CCC12E515E7870800894EFB /* 69.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 69.png; sourceTree = "<group>"; };
 		7CCC12E615E7870800894EFB /* 70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 70.png; sourceTree = "<group>"; };
 		7CCC135615E7A91F00894EFB /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		7CCE6EBA17A1649800526092 /* btn_share_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_share_deselected.png; sourceTree = "<group>"; };
+		7CCE6EBB17A1649800526092 /* btn_share_deselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_share_deselected@2x.png"; sourceTree = "<group>"; };
+		7CCE6EBC17A1649800526092 /* buy_now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy_now.png; sourceTree = "<group>"; };
+		7CCE6EBD17A1649800526092 /* buy_now@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy_now@2x.png"; sourceTree = "<group>"; };
+		7CCE6EBE17A1649800526092 /* btn_videos_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_videos_deselected.png; sourceTree = "<group>"; };
+		7CCE6EBF17A1649800526092 /* btn_videos_deselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_videos_deselected@2x.png"; sourceTree = "<group>"; };
+		7CCE6EC017A1649800526092 /* nav_btn_coverage_deselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_btn_coverage_deselected@2x.png"; sourceTree = "<group>"; };
+		7CCE6EC117A1649800526092 /* nav_btn_coverage_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_btn_coverage_deselected.png; sourceTree = "<group>"; };
+		7CCE6ECE17A164DA00526092 /* subscribe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subscribe.png; sourceTree = "<group>"; };
+		7CCE6ECF17A164DA00526092 /* subscribe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subscribe@2x.png"; sourceTree = "<group>"; };
 		7CD6D9CB16974854004BCB15 /* GCSE-Chemistry-WJEC-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Chemistry-WJEC-Examination-Coverage.pdf"; sourceTree = "<group>"; };
 		7CD6D9CC16974854004BCB15 /* GCSE-Chemistry-OCR-Gateway-B-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Chemistry-OCR-Gateway-B-Examination-Coverage.pdf"; sourceTree = "<group>"; };
 		7CD6D9CD16974854004BCB15 /* GCSE-Chemistry-OCR-21st-Century-A-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Chemistry-OCR-21st-Century-A-Examination-Coverage.pdf"; sourceTree = "<group>"; };
@@ -355,8 +370,6 @@
 		7CD6D9D81697486C004BCB15 /* Coverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coverage.m; sourceTree = "<group>"; };
 		7CD6D9D91697486C004BCB15 /* CoverageViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoverageViewer.h; sourceTree = "<group>"; };
 		7CD6D9DA1697486C004BCB15 /* CoverageViewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverageViewer.m; sourceTree = "<group>"; };
-		7CD6D9DB169748CA004BCB15 /* nav_btn_coverage_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_btn_coverage_deselected.png; sourceTree = "<group>"; };
-		7CF81A4C1735ACE200ADB961 /* subscribe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subscribe.png; sourceTree = "<group>"; };
 		7CF81A4E1735ACF000ADB961 /* 70-tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "70-tv.png"; sourceTree = "<group>"; };
 		7CF81A501735AD9400ADB961 /* LearnersCloudSamplesVideos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnersCloudSamplesVideos.h; sourceTree = "<group>"; };
 		7CF81A511735AD9400ADB961 /* LearnersCloudSamplesVideos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnersCloudSamplesVideos.m; sourceTree = "<group>"; };
@@ -464,6 +477,8 @@
 				7CAE9F2B1627012C00474CD2 /* UnderlinedButton.m */,
 				7CCC127715E783EA00894EFB /* ActivityIndicator.h */,
 				7CCC127815E783EA00894EFB /* ActivityIndicator.m */,
+				7C239E5317AD1F4000794B2C /* TransparentToolBar.h */,
+				7C239E5417AD1F4000794B2C /* TransparentToolBar.m */,
 				7CCC115515E7814800894EFB /* main.m */,
 				7CCC115215E7814800894EFB /* InfoPlist.strings */,
 				7CCC115115E7814800894EFB /* ChemistryVideoStreameriPhone-Info.plist */,
@@ -640,6 +655,8 @@
 		7CCC123D15E7833200894EFB /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				7CCE6ECE17A164DA00526092 /* subscribe.png */,
+				7CCE6ECF17A164DA00526092 /* subscribe@2x.png */,
 				7CAE9F59162702E000474CD2 /* TV_chemistry_header.png */,
 				7CAE9F5A162702E000474CD2 /* TV_chemistry_header@2x.png */,
 				7CAE9F5D162702FE00474CD2 /* hero_chemistry.png */,
@@ -647,7 +664,6 @@
 				7CAE9F32162701B200474CD2 /* free_and_paid_apps.png */,
 				7CAE9F33162701B200474CD2 /* free_and_paid_apps@2x.png */,
 				7CAE9F34162701B300474CD2 /* back320x450.png */,
-				7CF81A4C1735ACE200ADB961 /* subscribe.png */,
 				7CAE9F35162701B400474CD2 /* back320x450@2x.png */,
 				7CAE9F36162701B400474CD2 /* Default-568h@2x.png */,
 				7CAE9F37162701B500474CD2 /* Default.png */,
@@ -683,10 +699,14 @@
 		7CCC125E15E7835D00894EFB /* Icons */ = {
 			isa = PBXGroup;
 			children = (
-				7CD6D9DB169748CA004BCB15 /* nav_btn_coverage_deselected.png */,
-				7CAE9F2C1627019800474CD2 /* buy_now.png */,
-				7CAE9F2D1627019800474CD2 /* btn_videos_deselected.png */,
-				7CAE9F2E1627019800474CD2 /* btn_share_deselected.png */,
+				7CCE6EBA17A1649800526092 /* btn_share_deselected.png */,
+				7CCE6EBB17A1649800526092 /* btn_share_deselected@2x.png */,
+				7CCE6EBC17A1649800526092 /* buy_now.png */,
+				7CCE6EBD17A1649800526092 /* buy_now@2x.png */,
+				7CCE6EBE17A1649800526092 /* btn_videos_deselected.png */,
+				7CCE6EBF17A1649800526092 /* btn_videos_deselected@2x.png */,
+				7CCE6EC017A1649800526092 /* nav_btn_coverage_deselected@2x.png */,
+				7CCE6EC117A1649800526092 /* nav_btn_coverage_deselected.png */,
 				7CCC126415E7837000894EFB /* 60-signpost.png */,
 				7CF81A4E1735ACF000ADB961 /* 70-tv.png */,
 			);
@@ -832,9 +852,6 @@
 				7CCC132D15E7870800894EFB /* 69.png in Resources */,
 				7CCC132E15E7870800894EFB /* 70.png in Resources */,
 				7CCC135B15E7A91F00894EFB /* iTunesArtwork.png in Resources */,
-				7CAE9F2F1627019800474CD2 /* buy_now.png in Resources */,
-				7CAE9F301627019800474CD2 /* btn_videos_deselected.png in Resources */,
-				7CAE9F311627019800474CD2 /* btn_share_deselected.png in Resources */,
 				7CAE9F39162701B500474CD2 /* free_and_paid_apps.png in Resources */,
 				7CAE9F3A162701B500474CD2 /* free_and_paid_apps@2x.png in Resources */,
 				7CAE9F3B162701B500474CD2 /* back320x450.png in Resources */,
@@ -867,11 +884,9 @@
 				7CD6D9D416974854004BCB15 /* GCSE-Chemistry-Edexcel-Examination-Coverage.pdf in Resources */,
 				7CD6D9D516974854004BCB15 /* GCSE-Chemistry-CCEA-Examination-Coverage.pdf in Resources */,
 				7CD6D9D616974854004BCB15 /* GCSE-Chemistry-AQA-Examination-Coverage.pdf in Resources */,
-				7CD6D9DC169748CA004BCB15 /* nav_btn_coverage_deselected.png in Resources */,
 				7C18049016FB3EAD00DBCF78 /* website_promo.png in Resources */,
 				7C18049116FB3EAD00DBCF78 /* website_promo@2x.png in Resources */,
 				7C18049316FB3F9C00DBCF78 /* HowtouseVideoStreamer.pdf in Resources */,
-				7CF81A4D1735ACE200ADB961 /* subscribe.png in Resources */,
 				7CF81A4F1735ACF000ADB961 /* 70-tv.png in Resources */,
 				7CF81A531735ADAF00ADB961 /* MainWindow.xib in Resources */,
 				7CF81A5A1735ADBF00ADB961 /* Maths.png in Resources */,
@@ -880,6 +895,16 @@
 				7CF81A5D1735ADBF00ADB961 /* Biology.png in Resources */,
 				7CF81A5E1735ADBF00ADB961 /* Chemistry.png in Resources */,
 				7CF81A5F1735ADBF00ADB961 /* Testimonial.png in Resources */,
+				7CCE6EC217A1649800526092 /* btn_share_deselected.png in Resources */,
+				7CCE6EC317A1649800526092 /* btn_share_deselected@2x.png in Resources */,
+				7CCE6EC417A1649800526092 /* buy_now.png in Resources */,
+				7CCE6EC517A1649800526092 /* buy_now@2x.png in Resources */,
+				7CCE6EC617A1649800526092 /* btn_videos_deselected.png in Resources */,
+				7CCE6EC717A1649800526092 /* btn_videos_deselected@2x.png in Resources */,
+				7CCE6EC817A1649800526092 /* nav_btn_coverage_deselected@2x.png in Resources */,
+				7CCE6EC917A1649800526092 /* nav_btn_coverage_deselected.png in Resources */,
+				7CCE6ED017A164DA00526092 /* subscribe.png in Resources */,
+				7CCE6ED117A164DA00526092 /* subscribe@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -890,6 +915,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C239E5517AD1F5400794B2C /* TransparentToolBar.m in Sources */,
 				7CF81A641735AE2200ADB961 /* LearnersCloudSamplesVideos.m in Sources */,
 				7CF81A651735AE2200ADB961 /* TrailerPlayer.m in Sources */,
 				7C6BE4C316E7944B00122F68 /* ListCell.m in Sources */,
