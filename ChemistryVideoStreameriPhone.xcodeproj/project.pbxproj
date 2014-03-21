@@ -754,6 +754,11 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = caxtonidowu;
+				TargetAttributes = {
+					7CCC114415E7814700894EFB = {
+						DevelopmentTeam = 9RNCM436XC;
+					};
+				};
 			};
 			buildConfigurationList = 7CCC113F15E7814700894EFB /* Build configuration list for PBXProject "ChemistryVideoStreameriPhone" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1005,7 +1010,8 @@
 		7CCC117215E7814800894EFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph caxton (99S98QLWW3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph caxton (99S98QLWW3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChemistryVideoStreameriPhone/ChemistryVideoStreameriPhone-Prefix.pch";
 				INFOPLIST_FILE = "ChemistryVideoStreameriPhone/ChemistryVideoStreameriPhone-Info.plist";
@@ -1015,7 +1021,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = GCSE;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "D5A32F54-14F6-4E1E-8EEC-17034CDB0AB9";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1024,8 +1030,8 @@
 		7CCC117315E7814800894EFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChemistryVideoStreameriPhone/ChemistryVideoStreameriPhone-Prefix.pch";
 				INFOPLIST_FILE = "ChemistryVideoStreameriPhone/ChemistryVideoStreameriPhone-Info.plist";
@@ -1035,8 +1041,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = GCSE;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "3DC8E382-3B41-4BED-A10E-7DC2861411C3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3DC8E382-3B41-4BED-A10E-7DC2861411C3";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
