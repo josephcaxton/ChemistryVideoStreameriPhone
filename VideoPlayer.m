@@ -37,7 +37,7 @@
 													name:MPMoviePlayerPlaybackDidFinishNotification  
 												  object:player];  
 	[player stop];
-	[moviePlayerViewController.view removeFromSuperview];  
+	//[moviePlayerViewController.view removeFromSuperview];
 	
 	
 	[self.navigationController popViewControllerAnimated:YES];
@@ -122,7 +122,11 @@
 											 selector:@selector(movieFinishedCallback:)  
 												 name:MPMoviePlayerPlaybackDidFinishNotification  
 											   object:[moviePlayerViewController moviePlayer]];
-    
+     
+        NSError *_error = nil;
+        [[AVAudioSession sharedInstance] setCategory: AVAudioSessionCategoryPlayback error:&_error];
+       
+     
     [self presentMoviePlayerViewControllerAnimated:moviePlayerViewController];
     
 
